@@ -1,0 +1,69 @@
+.todo-item {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: #7f89d1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .todo-name {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #fff;
+  }
+  .todo-edit-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .edit-todo-input {
+    padding: 8px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #bfbfbf;
+    outline: none;
+    color: #fff;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-container button {
+    background-color: transparent;
+   width: 30px;
+   height: 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+  #cross-icon {
+    width: 100%;
+    color: red;
+    font-weight: 700;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;;
+  }
+  #edit-icon{
+    color: #fff;
+    transform: rotate(270deg);
+  }
+  
+  .save-button {
+    background-color: #392a2a;
+    padding: 4px;
+    border: 1px solid #928686;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
